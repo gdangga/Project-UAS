@@ -23,7 +23,7 @@
     }
     
     ?>
-    <br><br>
+    <br><br><br>
     <div class="container">
         <div class="">
             <a href="uploadpage.php">upload</a>
