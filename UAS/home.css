@@ -1,0 +1,99 @@
+
+
+.search-overlay {
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 600px; /* Sesuaikan lebar maksimum yang diinginkan */
+  margin: 0 auto; /* Untuk membuatnya berada di tengah */
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 60px;
+  border-radius: 19px;
+}
+
+.search-overlay input[type="search"] {
+  background-color: #ffffff; /* Ganti dengan kode warna yang diinginkan */
+  color: #000000; /* Ganti dengan warna teks yang sesuai */
+}
+
+.search-overlay button {
+  background-color: #ffffff; /* Ganti dengan kode warna yang diinginkan */
+  color: #000000; /* Ganti dengan warna teks yang sesuai */
+}
+
+
+
+.atas {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-container {
+  position: relative;
+}
+
+.header-container img {
+  width: 100%;
+  height: auto;
+}
+
+.header-container .header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.header-container .header-content h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.header-container .header-content h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.header-container {
+  margin-bottom: 50px;
+}
+
+
+.image-container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  z-index: 2;
+}
+
+.text-overlay:hover {
+  opacity: 1;
+}
+
+.text-overlay h2 {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+      
+      
+      

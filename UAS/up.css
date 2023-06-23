@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  }
+  
+  .box {
+    width: 1000px;
+    height: 500px;
+    border: 4px solid rgba(0, 0, 0, 0);
+  }
+
+  .gambar {
+    border-radius: 1px;
+    width: 430px;
+    height: 499px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 87px;
+    margin-left: 220px;
+  }
+  
+  .container {
+    max-width: 450px;
+    height: 477px;
+    margin: 0 auto;
+    margin-right: 55px;
+    margin-top: 1px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    text-align: left;
+    font-size: 34px;
+    color: #333;
+  }
+  .container h4 {
+    text-align: left;
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 50px;
+  }
+
+  .container h5 {
+    text-align: left;
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+  
+  .container label {
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .container input[type="text"],
+  .container input[type="password"] {
+    width: 95%;
+    padding:  10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .container label.remember {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .container input[type="submit"] {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: #DFD2FD;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #000;
+  }
+  
+  .container input[type="submit"]:hover {
+    background-color: #DFD2FD;
+  }
+
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  
+  
