@@ -1,13 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+    font-weight: bold;
     font-size: 14px;
     color: #000000;
   }
   
-  /* Menentukan font pada box dengan class "box" */
-  
-    
-
 
 .navbar {
     background-color: #DFD2FD;
@@ -57,7 +54,7 @@ body {
 
   .box3 {
     width: 770px;
-    height: 227px;
+    height: 427px;
     margin-left: auto; /* Mengatur margin kiri ke auto */
     margin-right: 100px;
     margin-top: 20px;
@@ -66,5 +63,22 @@ body {
     padding: 20px;
     text-align: left;
     border-radius: 15px;
+    float: right; /* Menentukan posisi box ke kanan */
+  }
+
+  .boxa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px; /* Mengatur margin kiri ke auto */
+    margin-right: 20px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc00;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
     float: right; /* Menentukan posisi box ke kanan */
   }
