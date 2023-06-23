@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  /* Menentukan font pada box dengan class "box" */
+  
+    
+
+
+.navbar {
+    background-color: #DFD2FD;
+  }
+
+  .box {
+    width: 200px;
+    height: 80px;
+    margin-left: 100px;
+    background-color: #eaeaea00;
+    border: 1px solid #cccccc00;
+    padding: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+
+
+  .box1 {
+    width: 370px;
+    height: 227px;
+    margin-left: auto; /* Mengatur margin kiri ke auto */
+    margin-right: 100px;
+    margin-top: -50px;
+    background-color: #DFD2FD;
+    border: 1px solid #cccccc00;
+    padding: 20px;
+    text-align: left;
+    border-radius: 15px;
+    float: right; /* Menentukan posisi box ke kanan */
+  }
+  .box2 {
+    width: 370px;
+    height: 227px;
+    margin-left: auto; /* Mengatur margin kiri ke auto */
+    margin-right: 30px;
+    margin-top: -50px;
+    background-color: #DFD2FD;
+    border: 1px solid #cccccc00;
+    padding: 20px;
+    text-align: left;
+    border-radius: 15px;
+    float: right; /* Menentukan posisi box ke kanan */
+  }
+
+  .box3 {
+    width: 770px;
+    height: 227px;
+    margin-left: auto; /* Mengatur margin kiri ke auto */
+    margin-right: 100px;
+    margin-top: 20px;
+    background-color: #DFD2FD;
+    border: 1px solid #cccccc00;
+    padding: 20px;
+    text-align: left;
+    border-radius: 15px;
+    float: right; /* Menentukan posisi box ke kanan */
+  }
